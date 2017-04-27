@@ -22,6 +22,21 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+
+
+## III. Model Selection: Random Forest Regression
+1. Feature correlation
+
+   Some features are highly correlated, for example, Sodium and Chloride concentration, 
+   also ALT(SGPT) and AST(SGOT),two aminotransferases enzymes.
+   Some correlated features are interesting, such as platelets count and pulse.
+   
+   <p align="center">
+   <img src="Figure/year-genre-class.svg" width="70%"/>
+   </p>
+
+
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
