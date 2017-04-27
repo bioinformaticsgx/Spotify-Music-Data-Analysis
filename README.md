@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Spotify Music Data Analysis
 
 You can use the [editor on GitHub](https://github.com/JerryGuangXu/Spotify-Music-Data-Analysis/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
