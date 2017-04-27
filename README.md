@@ -50,6 +50,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    Some correlated features are interesting, such as platelets count and pulse.
    
    <p align="center">
-   <img src="Figure/2000.png" width="100%"/>
+   <img src="Figure/again.png" width="100%"/>
    </p>
 
