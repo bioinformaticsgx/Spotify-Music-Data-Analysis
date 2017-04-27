@@ -53,3 +53,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    <img src="Figure/year-type-popularity.png" width="100%"/>
    </p>
 
+### III. Model Selection: Random Forest Regression
+1. Feature correlation
+
+   Some features are highly correlated, for example, Sodium and Chloride concentration, 
+   also ALT(SGPT) and AST(SGOT),two aminotransferases enzymes.
+   Some correlated features are interesting, such as platelets count and pulse.
+   
+   <p align="center">
+   <img src="Figure/album_artist_track.tiff" width="100%"/>
+   </p>
+
