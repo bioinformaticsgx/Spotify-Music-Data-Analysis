@@ -42,7 +42,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 
-## III. Model Selection: Random Forest Regression
+### III. Model Selection: Random Forest Regression
 1. Feature correlation
 
    Some features are highly correlated, for example, Sodium and Chloride concentration, 
@@ -50,6 +50,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    Some correlated features are interesting, such as platelets count and pulse.
    
    <p align="center">
-   <img src="Figure/year-genre-class.svg" width="70%"/>
+   <img src="Figure/year-genre-class.png" width="70%"/>
    </p>
 
