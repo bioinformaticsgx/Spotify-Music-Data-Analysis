@@ -22,7 +22,14 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+### I.Scatterplot: 
+1. Feature correlation
 
+   Some features are hig
+   
+   <p align="center">
+   <img src="Figure/scatterplot matrix.png" width="85%"/>
+   </p>
 
 
 
