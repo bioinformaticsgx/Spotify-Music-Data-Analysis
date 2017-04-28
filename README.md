@@ -60,7 +60,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    Some correlated features are interesting, such as platelets count and pulse.
    
    <p align="center">
-   <img src="Figure/year-type-popularity.png" width="80%"/>
+   <img src="Figure/year-type-popularity.png" width="90%"/>
    </p>
 
 ### III. Model Selection: Random Forest Regression
