@@ -22,14 +22,6 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-### I.Scatterplot: 
-1. Feature correlation
-
-   Some features are hig
-   
-   <p align="center">
-   <img src="Figure/scatterplot matrix.png" width="85%"/>
-   </p>
 
 
 
@@ -39,6 +31,17 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+
+### I.Scatterplot: 
+1. Feature correlation
+
+   Some features are hig
+   
+   <p align="center">
+   <img src="Figure/scatterplot matrix.png" width="85%"/>
+   </p>
+
 
 ### Jekyll Themes
 
