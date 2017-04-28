@@ -49,6 +49,14 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
    <p align="center">
    <img src="Figure/album-artist-track.png" width="65%"/>
    </p>
+   
+
+### III. Three popularity
+1. Feature correlati 
+   
+   <p align="center">
+   <img src="Figure/genres-barplot.png" width="65%"/>
+   </p>
 
 
 ### Jekyll Themes
