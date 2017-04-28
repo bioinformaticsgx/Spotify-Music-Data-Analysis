@@ -65,7 +65,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 1. Feature correlati 
    
    <p align="center">
-   <img src="Figure/boxplot matrix.png" width="65%"/>
+   <img src="Figure/boxplot matrix.png" width="100%"/>
    </p>
 
 
