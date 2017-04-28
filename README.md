@@ -39,7 +39,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
    Some features are hig
    
    <p align="center">
-   <img src="Figure/scatterplot matrix.png" width="85%"/>
+   <img src="Figure/scatterplot matrix.png" width="100%"/>
    </p>
 
 
