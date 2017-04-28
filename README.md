@@ -43,6 +43,14 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
    </p>
 
 
+### III. Three popularity
+1. Feature correlati 
+   
+   <p align="center">
+   <img src="Figure/album-artist-track.png" width="65%"/>
+   </p>
+
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JerryGuangXu/Spotify-Music-Data-Analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
@@ -71,6 +79,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
    Some correlated features are interesting, such as platelets count and pulse.
    
    <p align="center">
-   <img src="Figure/album_artist_track.jpeg" width="65%"/>
+   <img src="Figure/album-artist-track.png" width="65%"/>
    </p>
 
