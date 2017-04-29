@@ -56,7 +56,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 1. Feature correlati 
    
    <p align="center">
-   <img src="Figure/genres-barplot.png" width="65%"/>
+   <img src="Figure/barplot-genres.png" width="65%"/>
    </p>
 
 
@@ -71,6 +71,12 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 
 
+### III. Three popularity
+1. Feature correlati 
+   
+   <p align="center">
+   <img src="Figure/barplot-15-16-17.png" width="65%"/>
+   </p>
 
 
 
