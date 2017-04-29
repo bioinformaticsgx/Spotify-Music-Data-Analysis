@@ -75,7 +75,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 1. Feature correlati 
    
    <p align="center">
-   <img src="Figure/barplot-151617.png" width="65%"/>
+   <img src="Figure/barplot-151617.png" width="100%"/>
    </p>
 
 
