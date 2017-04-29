@@ -2,16 +2,22 @@
 
 
 https://jerryguangxu.github.io/Spotify-Music-Data-Analysis/
+In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year). 
 
-From Spotify API, we pulled out 200000 tracks' information for the past 20 years (10000 tracks per year). 
-The information include: 
-1. general numeric features (e.g. release time, popularity, artist popularity), 
-2. numeric physical properties (e.g. loudness, duration) 
-3. non-numeric ones (genres, album name, artist name)
-The purpose are:
+The information was pulled out from Spotify API and include: 
+1. General numeric features (e.g. release time, popularity, artist popularity), 
+2. Numeric physical properties (e.g. loudness, duration) 
+3. Non-numeric ones (e.g. genres, album name, artist name)
 
 
-music vs time dependent
+The purposes are:
+a. Analyze the trend of music development over past 20 years. 
+   *For example, the track has been louder than before? Or duration is longer than before?*
+b. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning    algorithms.
+   *For example, is louder song more popular nowadays? *
+
+
+
 
 ### Markdown
 
