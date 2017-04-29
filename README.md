@@ -26,7 +26,11 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 
-### Pipeline data cleaning,...
+### General pipeline and techniques:
+    1. API extract
+    2. Data clean and transform
+    3. Data visualization
+    4. Machine learning and modeling
 
 
 
