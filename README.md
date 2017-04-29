@@ -15,24 +15,25 @@ One critical target variable is `track popularity`, which we used as indicator o
 ```
 
 ### The purposes are to provide some insight for the trend of music industry:
+```
+1. Analyze the trend of music development over past 20 years. 
 
-     1. Analyze the trend of music development over past 20 years. 
-
-   *For example, the track has been louder than before? Or duration is longer than before?*
+   For example, the track has been louder than before? Or duration is longer than before?
    
-       2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning algorithm.
+2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning algorithm.
 
-   *For example, is louder song more popular nowadays?*
-
+   For example, is louder song more popular nowadays?
+```
 
 
 
 ### General pipeline and techniques:
-    1. API extract and data snippet
-    2. Data clean and transform
-    3. Data visualization
-    4. Machine learning and modeling
-
+```   
+1. API extract and data snippet
+2. Data clean and transform
+3. Data visualization
+4. Machine learning and modeling
+```
 
 ### Result
 ### General trend of music over past 20 years
@@ -45,7 +46,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 ```   
  
    <p align="center">
-   <img src="Figure/barplot-genres.png" width="65%"/>
+   <img src="Figure/barplot-genres.png" width="80%"/>
    </p>
  
  
@@ -63,6 +64,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 ```
 3. Time series barplot for 16 different numeric features.
+   Only loudness slightly change
 ```
    
    <p align="center">
@@ -90,7 +92,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 ```
 3. Time-series analysis of popularity for different genres of music.
 ```
-<p align="center">
+   <p align="center">
    <img src="Figure/year-type-popularity.png" width="90%"/>
    </p>
 
