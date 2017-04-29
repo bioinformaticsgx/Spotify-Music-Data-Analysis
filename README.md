@@ -68,7 +68,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 ```
    
    <p align="center">
-   <img src="Figure/boxplot matrix.png" width="100%"/>
+   <img src="Figure/boxplot matrix.png" width="120%"/>
    </p>
 
 
