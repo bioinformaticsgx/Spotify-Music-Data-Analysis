@@ -2,7 +2,14 @@
 
 
 https://jerryguangxu.github.io/Spotify-Music-Data-Analysis/
-P
+
+From Spotify API, we pulled out 200000 tracks' information for the past 20 years (10000 tracks per year). 
+The information include: 
+1. general numeric features (e.g. release time, popularity, artist popularity), 
+2. numeric physical properties (e.g. loudness, duration) 
+3. non-numeric ones (genres, album name, artist name)
+The purpose are:
+
 
 music vs time dependent
 
