@@ -42,7 +42,7 @@ One critical target variable is `track popularity`, which we used as indicator o
    Only loudness slightly change
    
    <p align="center">
-   <img src="Figure/boxplot matrix.png" width="120%"/>
+   <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
    </p>
 
 
@@ -86,7 +86,7 @@ One critical target variable is `track popularity`, which we used as indicator o
    Scatterplot between track popularity and features.
  
    <p align="center">
-   <img src="Figure/scatterplot_matrix.png" width="100%"/>
+   <img src="Figure/modified-scatterplot-matrix.png" width="100%"/>
    </p>
 
 
