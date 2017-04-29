@@ -37,35 +37,9 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 ### Result
 ### General trend of music over past 20 years
-```
-1. What types of music do we listen these days?
-   
-   Barplot for number of different genres of tracks which are either popular or unpopular
-   
-   We define "popular songs" as those with track popularity score ranking at top 20
-```   
- 
-   <p align="center">
-   <img src="Figure/barplot-genres.png" width="80%"/>
-   </p>
- 
- 
 
- 
-```
-2. Barplot for number of different genres of tracks for the past four years. 
-```
-   
-   <p align="center">
-   <img src="Figure/final4567.png" width="100%"/>
-   </p>
-
-
-
-```
-3. Time series barplot for 16 different numeric features.
+1. Time series barplot for 16 different numeric features.
    Only loudness slightly change
-```
    
    <p align="center">
    <img src="Figure/boxplot matrix.png" width="120%"/>
@@ -73,28 +47,52 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 
+### Popularity Analysis
 ### Association between track popularity and different numeric features.
-```
-1. Which features are associated with track popularity? 
+
+1. What types of music do we listen these days?
+   
+   Barplot for number of different genres of tracks which are either popular or unpopular
+   
+   We define "popular songs" as those with track popularity score ranking at top 20 
+ 
+   <p align="center">
+   <img src="Figure/barplot-genres.png" width="80%"/>
+   </p>
+ 
+ 
+
+
+2. Barplot for number of different genres of tracks for the past four years. 
+
+   
+   <p align="center">
+   <img src="Figure/final4567.png" width="100%"/>
+   </p>
+
+3. Time-series analysis of popularity for different genres of music.
+
+   <p align="center">
+   <img src="Figure/year-type-popularity.png" width="80%"/>
+   </p>
+
+
+
+4. Which features are associated with track popularity? 
    Scatterplot between track popularity and features.
-```  
+ 
    <p align="center">
    <img src="Figure/scatterplot_matrix.png" width="100%"/>
    </p>
 
-```
-2. Album popularity and artist popularity are two strong features linearly associated.
-```  
+
+5. Album popularity and artist popularity are two strong features linearly associated.
+ 
    <p align="center">
    <img src="Figure/album-artist-track.png" width="50%"/>
    </p>
 
-```
-3. Time-series analysis of popularity for different genres of music.
-```
-   <p align="center">
-   <img src="Figure/year-type-popularity.png" width="80%"/>
-   </p>
+
 
 ### Modeling: Random Forest Regression
 ```
