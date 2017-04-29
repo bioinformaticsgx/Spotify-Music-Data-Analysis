@@ -2,6 +2,7 @@
 
 
 https://jerryguangxu.github.io/Spotify-Music-Data-Analysis/
+
 In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year). 
 
 The information was pulled out from Spotify API and include: 
