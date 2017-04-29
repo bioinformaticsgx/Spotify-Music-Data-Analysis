@@ -11,9 +11,13 @@ The information was pulled out from Spotify API and include:
 
 
 The purposes are:
+
 a. Analyze the trend of music development over past 20 years. 
+
    *For example, the track has been louder than before? Or duration is longer than before?*
+   
 b. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning    algorithms.
+
    *For example, is louder song more popular nowadays? *
 
 
@@ -22,14 +26,6 @@ b. Analyze what features are associated with popularity, and establish models to
 ### Markdown
 
 
-```
-lalal
-ds
-```
-
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
 
