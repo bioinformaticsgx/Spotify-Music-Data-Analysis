@@ -45,7 +45,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 2. Barplot for number of different genres of tracks for the past four years. 
    
    <p align="center">
-   <img src="Figure/14151617barplot.png" width="100%"/>
+   <img src="Figure/final4567.png" width="100%"/>
    </p>
 
 
