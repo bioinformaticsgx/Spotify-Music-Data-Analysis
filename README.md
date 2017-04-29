@@ -105,5 +105,6 @@ Before ML, correlation map for different features
 ```
 1. xgbclassifier tune parameters
 2. Which features are most predictive?
+----MAKE wordle!
 ```
 
