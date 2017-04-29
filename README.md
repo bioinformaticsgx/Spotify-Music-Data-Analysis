@@ -9,31 +9,57 @@ The information was pulled out from Spotify API and include:
 2. Numeric physical properties (e.g. loudness, duration) 
 3. Non-numeric ones (e.g. genres, album name, artist name)
 
+One critical target variable is `track popularity`, which we used as indicator of popularity. It's provided by Spotify API, and calcuated by algorithms based on total number of plays the track has had and how recent those plays are.
 
-The purposes are:
 
-a. Analyze the trend of music development over past 20 years. 
+### The purposes are to provide some insight for the trend of music industry:
+
+1. Analyze the trend of music development over past 20 years. 
 
    *For example, the track has been louder than before? Or duration is longer than before?*
    
-b. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning    algorithms.
+2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning    algorithms.
 
-   *For example, is louder song more popular nowadays? *
-
-
-
-
-### Markdown
+   *For example, is louder song more popular nowadays?*
 
 
 
 
+### Pipeline data cleaning,...
 
 
-### I.Scatterplot: 
-1. Feature correlation
 
-   Some features are hig
+### I. General trend of music over past 20 years
+
+1. What types of music do we listen these days?
+   
+   Barplot for number of different genres of tracks which are either popular or unpopular
+   
+   We define "popular songs" as those with track popularity score ranking at top 20
+ 
+   <p align="center">
+   <img src="Figure/barplot-genres.png" width="65%"/>
+   </p>
+   
+
+2. Barplot for number of different genres of tracks for the past four years. 
+   
+   <p align="center">
+   <img src="Figure/14151617barplot.png" width="100%"/>
+   </p>
+
+
+3. Time series barplot for 16 different numeric features.
+
+   
+   <p align="center">
+   <img src="Figure/boxplot matrix.png" width="100%"/>
+   </p>
+
+
+
+### II. General trend of music over past 20 years
+1. Feature correlati
    
    <p align="center">
    <img src="Figure/scatterplot_matrix.png" width="100%"/>
@@ -48,21 +74,9 @@ b. Analyze what features are associated with popularity, and establish models to
    </p>
    
 
-### III. Three popularity
-1. Feature correlati 
-   
-   <p align="center">
-   <img src="Figure/barplot-genres.png" width="65%"/>
-   </p>
 
 
 
-### III. Three popularity
-1. Feature correlati 
-   
-   <p align="center">
-   <img src="Figure/boxplot matrix.png" width="100%"/>
-   </p>
 
 
 
