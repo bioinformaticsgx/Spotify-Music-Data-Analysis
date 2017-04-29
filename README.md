@@ -82,16 +82,6 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 
-### III. Three popularity
-1. Feature correlati 
-   
-   <p align="center">
-   <img src="Figure/14151617barplot.png" width="100%"/>
-   </p>
-
-
-
-
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JerryGuangXu/Spotify-Music-Data-Analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
