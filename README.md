@@ -86,14 +86,14 @@ One critical target variable is `track popularity`, which we used as indicator o
 2. Album popularity and artist popularity are two strong features linearly associated.
 ```  
    <p align="center">
-   <img src="Figure/album-artist-track.png" width="65%"/>
+   <img src="Figure/album-artist-track.png" width="50%"/>
    </p>
 
 ```
 3. Time-series analysis of popularity for different genres of music.
 ```
    <p align="center">
-   <img src="Figure/year-type-popularity.png" width="90%"/>
+   <img src="Figure/year-type-popularity.png" width="80%"/>
    </p>
 
 ### Modeling: Random Forest Regression
