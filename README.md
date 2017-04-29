@@ -42,16 +42,18 @@ One critical target variable is `track popularity`, which we used as indicator o
    Barplot for number of different genres of tracks which are either popular or unpopular
    
    We define "popular songs" as those with track popularity score ranking at top 20
+```   
  
    <p align="center">
    <img src="Figure/barplot-genres.png" width="65%"/>
    </p>
  
  
-``` 
- 
 
+ 
+```
 2. Barplot for number of different genres of tracks for the past four years. 
+```
    
    <p align="center">
    <img src="Figure/final4567.png" width="100%"/>
@@ -59,11 +61,9 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 
-
-
-
+```
 3. Time series barplot for 16 different numeric features.
-
+```
    
    <p align="center">
    <img src="Figure/boxplot matrix.png" width="100%"/>
@@ -72,32 +72,36 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 ### Association between track popularity and different numeric features.
+```
 1. Which features are associated with track popularity? 
    Scatterplot between track popularity and features.
-   
+```  
    <p align="center">
    <img src="Figure/scatterplot_matrix.png" width="100%"/>
    </p>
 
-
+```
 2. Album popularity and artist popularity are two strong features linearly associated.
-   
+```  
    <p align="center">
    <img src="Figure/album-artist-track.png" width="65%"/>
    </p>
-   
+
+```
 3. Time-series analysis of popularity for different genres of music.
+```
 <p align="center">
    <img src="Figure/year-type-popularity.png" width="90%"/>
    </p>
 
 ### Modeling: Random Forest Regression
 ```
-before ML, correlation map for different features
+Before ML, correlation map for different features
 ```
 
 ### Modeling: Random Forest Regression
+```
 1. xgbclassifier tune parameters
 2. Which features are most predictive?
-
+```
 
