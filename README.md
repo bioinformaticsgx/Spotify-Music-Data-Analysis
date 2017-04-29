@@ -38,7 +38,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 ### Result
 ### General trend of music over past 20 years
 
-1. Time series barplot for 16 different numeric features.
+1. First, regardless of popularity, time series barplot for 16 different numeric features.
    Only loudness slightly change
    
    <p align="center">
