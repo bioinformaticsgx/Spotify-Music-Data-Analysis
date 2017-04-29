@@ -1,7 +1,8 @@
 ## Music Data Trend Analysis
 
-
 https://jerryguangxu.github.io/Spotify-Music-Data-Analysis/
+
+## Project introduction
 
 In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year). 
 
@@ -15,19 +16,19 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 ### The purposes are to provide some insight for the trend of music industry:
 
-1. Analyze the trend of music development over past 20 years. 
+    1. Analyze the trend of music development over past 20 years. 
 
-   *For example, the track has been louder than before? Or duration is longer than before?*
+       *For example, the track has been louder than before? Or duration is longer than before?*
    
-2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning    algorithms.
+    2. Analyze what features are associated with popularity, and establish models to predict track popularity by machi
 
-   *For example, is louder song more popular nowadays?*
+       *For example, is louder song more popular nowadays?*
 
 
 
 
 ### General pipeline and techniques:
-    1. API extract
+    1. API extract and data snippet
     2. Data clean and transform
     3. Data visualization
     4. Machine learning and modeling
