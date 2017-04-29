@@ -67,7 +67,11 @@ One critical target variable is `track popularity`, which we used as indicator o
 
    
    <p align="center">
-   <img src="Figure/final4567.png" width="100%"/>
+   <img src="Figure/stream-pop.png" width="100%"/>
+   </p>
+
+   <p align="center">
+   <img src="Figure/stream-total.png" width="100%"/>
    </p>
 
 3. Time-series analysis of popularity for different genres of music.
