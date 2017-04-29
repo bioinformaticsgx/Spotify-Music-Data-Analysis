@@ -18,11 +18,11 @@ One critical target variable is `track popularity`, which we used as indicator o
 
     1. Analyze the trend of music development over past 20 years. 
 
-       *For example, the track has been louder than before? Or duration is longer than before?*
+  *For example, the track has been louder than before? Or duration is longer than before?*
    
     2. Analyze what features are associated with popularity, and establish models to predict track popularity by machi
 
-       *For example, is louder song more popular nowadays?*
+  *For example, is louder song more popular nowadays?*
 
 
 
