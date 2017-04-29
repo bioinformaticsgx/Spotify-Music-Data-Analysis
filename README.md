@@ -34,8 +34,8 @@ One critical target variable is `track popularity`, which we used as indicator o
     4. Machine learning and modeling
 
 
-
-### I. General trend of music over past 20 years
+### Result
+### General trend of music over past 20 years
 
 1. What types of music do we listen these days?
    
@@ -71,46 +71,33 @@ One critical target variable is `track popularity`, which we used as indicator o
 
 
 
-### II. General trend of music over past 20 years
-1. Feature correlati
+### Association between track popularity and different numeric features.
+1. Which features are associated with track popularity? 
+   Scatterplot between track popularity and features.
    
    <p align="center">
    <img src="Figure/scatterplot_matrix.png" width="100%"/>
    </p>
 
 
-### III. Three popularity
-1. Feature correlati 
+2. Album popularity and artist popularity are two strong features linearly associated.
    
    <p align="center">
    <img src="Figure/album-artist-track.png" width="65%"/>
    </p>
    
-
-
-
-
-
-
-
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JerryGuangXu/Spotify-Music-Data-Analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-
-### III. Model Selection: Random Forest Regression
-1. Feature correlation
-
-   Some features are highly correlated, for example, Sodium and Chloride concentration, 
-   also ALT(SGPT) and AST(SGOT),two aminotransferases enzymes.
-   Some correlated features are interesting, such as platelets count and pulse.
-   
-   <p align="center">
+3. Time-series analysis of popularity for different genres of music.
+<p align="center">
    <img src="Figure/year-type-popularity.png" width="90%"/>
    </p>
+
+### Modeling: Random Forest Regression
+```
+before ML, correlation map for different features
+```
+
+### Modeling: Random Forest Regression
+1. xgbclassifier tune parameters
+2. Which features are most predictive?
+
 
