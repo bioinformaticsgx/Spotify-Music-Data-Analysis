@@ -101,7 +101,7 @@ One critical target variable is `track popularity`, which we used as indicator o
 Before ML, correlation map for different features
 ```
    <p align="center">
-   <img src="Figure/corr-map.png" width="70%"/>
+   <img src="Figure/corr-map.png" width="80%"/>
    </p>
 
 ### Modeling: Random Forest Regression
