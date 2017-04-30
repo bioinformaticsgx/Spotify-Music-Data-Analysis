@@ -246,6 +246,6 @@ importance = clf.feature_importances_
 ```
  
    <p align="center">
-   <img src="Figure/wordle.png" width="80%"/>
+   <img src="Figure/wordle.png" width="60%"/>
    </p>
  
