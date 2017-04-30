@@ -119,11 +119,15 @@ def reduce_genres(gen):
 
 ### Popularity Analysis
 
-First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.
+**First**, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.
 
 What genres of tracks are prefered by listeners today?
    
 Barplot for number of different genres of tracks for all tracks.
+
+Easily we saw `pop` music dominate music industry; followed by `rock`, `country`, `metal`, `hip`, etc.
+
+Some genres have very small percentage that would become popular, like `punk` and `jazz`.
    
  
    <p align="center">
