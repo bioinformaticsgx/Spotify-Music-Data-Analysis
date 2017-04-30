@@ -141,12 +141,20 @@ Some genres have very small percentage that would become popular, like `punk` an
 
 Alluvial diagram shows proportion of popular tracks by release time for each genre of music.
 
+We could see for popular `pop`, `rap`, `country`, `indie`, `hip`, `house`, `mexican` music, at least half come from recent five years.
+
+For `indie`, `house` and `mexican`, almost all come from recent five years. So they appeared recently, or suddently became popular?
+
+For `rock`, `latin`, `metal`, lots of older tracks still favored. So such music have been on decline?
+
    <p align="center">
    <img src="Figure/year-type-popularity.png" width="80%"/>
    </p>
 
 
-2.Barplot for number of different genres of tracks for the past four years. 
+To answer the above questions, we generated year-by-year streamplot, which illustrates time-dependent trend better.
+
+The upper panel is for only popular tracks; while lower for total tracks.
 
    
    <p align="center">
