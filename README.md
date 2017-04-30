@@ -85,23 +85,17 @@ def reduce_genres(gen):
 
 **Critical features include:**
 
-⋅⋅⋅A. Track_Popularity, which is major indicator of song popularity and later used for correlation and data training in this         project. It reflects "hotness" by today's music listeners, calculated by total number of plays the track has had and how       recent those plays are.
+⋅⋅⋅A. Track_Popularity
+   Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays the track has had and how recent those plays are.
 
-⋅⋅⋅B. Year, which is used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
+⋅⋅⋅B. Year
+   Used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
 
 
 
 
-### General pipeline and techniques:
-```   
-1. API extract and data snippet
-2. Data clean and transform
-3. Data visualization
-4. Machine learning and modeling
-```
-
-### Result
-### General trend of music over past 20 years
+## Exploratory Data Analysis and Data Visualization
+### General trend of numeric features of music over past 20 years
 
 1. First, regardless of popularity, time series barplot for 16 different numeric features.
    Only loudness slightly change
