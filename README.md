@@ -106,9 +106,9 @@ def reduce_genres(gen):
    
    We could easily find recent tracks, album and artists are favored by today's listeners.
    
-   **Loudness** and **energy** have slightly _increased_; while **valence** and **acousticness** _decreased_.
+**Loudness** and **energy** have slightly _increased_; while **valence** and **acousticness** _decreased_.
    
-   **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
+**Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
