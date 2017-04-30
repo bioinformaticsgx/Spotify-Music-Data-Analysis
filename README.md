@@ -195,7 +195,7 @@ Scatterplot for relationship among album, artist and track popularity, which col
 We could see using album and artist alone, could predict track popularity to some extent. 
  
    <p align="center">
-   <img src="Figure/album-artist-track.png" width="50%"/>
+   <img src="Figure/album-artist-track.png" width="70%"/>
    </p>
 
 
