@@ -156,6 +156,11 @@ To answer the above questions, we generated year-by-year streamplot, which illus
 
 The upper panel is for only popular tracks; while lower for total tracks.
 
+Clearly we could see house is brandnew genre, not exploading until 2010; followed by indie, which started to expand around 2005. Mexican music has been always there but only became popular from 2012.
+
+For rock, the whole market has dramatically shrinked; while latin and metal shrinked much slowly.
+
+
    
    <p align="center">
    <img src="Figure/stream-pop.png" width="80%"/>
@@ -165,11 +170,6 @@ The upper panel is for only popular tracks; while lower for total tracks.
    <img src="Figure/stream-total.png" width="80%"/>
    </p>
 
-3. Time-series analysis of popularity for different genres of music.
-
-   <p align="center">
-   <img src="Figure/year-type-popularity.png" width="80%"/>
-   </p>
 
 
 
