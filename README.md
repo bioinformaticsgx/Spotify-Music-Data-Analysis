@@ -200,20 +200,30 @@ We could see using album and artist alone, could predict track popularity to som
 
 
 
-## Modeling: Random Forest Regression
-```
-Before ML, correlation map for different features
-```
+## Predictive Modeling by Gradient Boosting
+
+Before machine learning step, chord diagram generated for correlation between numeric features.
+
+We could see some strong pair correlations, such as loudness and energy, loudness and acousticness, speechiness and explicit.
+
    <p align="center">
    <img src="Figure/corr-map.png" width="80%"/>
    </p>
 
-### Modeling: Random Forest Regression
-```
-1. xgbclassifier tune parameters
+
+Our final dataframe is (215868 tracks X 419 features) for data training.
+
+Various machine learning algorithms have been tried and gradient boosting classifier by XGBoost show the best accuracy score.
+
+| Algorithms    | Acurracy  | 
+| ------------- |:---------:| 
+| SVM           |   0.82    | 
+| Random Forest |   0.85    |   
+| XGBClassifier |   0.89    |
+
+
 2. Which features are most predictive?
 ----MAKE wordle!
-```
 
 We define "popular songs" as those with track popularity score ranking at top 20 
  
