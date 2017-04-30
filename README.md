@@ -39,6 +39,12 @@ url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
 requests.get(url, headers={"Authorization": access_token})
 ```
 
+**Get items from complicated nested list**
+For example,
+```python
+str = j['tracks']['items']['']
+```
+
 
 **Vectorization of text (e.g. genres or name) by bag-of-words model.**
 
