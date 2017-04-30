@@ -158,7 +158,7 @@ def API_get_audio_feature(songids, audioF):
     track_ids = ','.join(songids)
 
     url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids  
-
+    ## access_token will expire soon
     access_token = (  'Bearer BQDAZNalQ6KCd8pRM0Exu3D-tzdeodFYL86pdq8kz'
                       'qN8i5gqeLMNeCgyPmZ1B3mgQ2YGd29tL06jxeNzOMkhmi4GM'
                       'QQLQ_ZfQUroBMRSMj10IOjEo-cX7YsfzH_v3eUlN4wXgDd4z'
