@@ -4,12 +4,6 @@
 In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
 
 
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-
 ## Project Goals:
 
 **Analyze the trend of music development over past 20 years.** 
@@ -28,17 +22,17 @@ print s
 
 ## Data Extraction and Transformation
 
-Spotify provides amazing API resources
+1. Spotify has provided amazing API resources:
 
 [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
-
+2. We randomly extracted data for 10000 tracks per year for the past 20 years.
 ```python
 url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
 requests.get(url).json()
 ```
 
-Acquire audio feature by track id; access_token required
+3. Then acquire audio feature data by track_id; Access_token is required for this.
 
 ```python
 url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
@@ -46,12 +40,11 @@ requests.get(url, headers={"Authorization": access_token})
 ```
 
 
-bag-of-words model
+4. Vectorization of text (e.g. genres or name) by bag-of-words model
 
 ```python
-vectorizer = CountVectorizer(analyzer='word',max_features=30)
-feature = vectorizer.fit_transform(dicname[name]).toarray().tolist()
-print(feature)
+vectorizer = CountVectorizer(analyzer='word',max_features=100)
+WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
 Then use pandas dataframe
