@@ -110,6 +110,7 @@ def reduce_genres(gen):
    
    **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
+   
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
    </p>
@@ -118,11 +119,12 @@ def reduce_genres(gen):
 
 ### Popularity Analysis
 
-1. What types of tracks are prefered by listeners today?
+First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.
+
+What genres of tracks are prefered by listeners today?
    
-   Barplot for number of different genres of tracks for all tracks.
+Barplot for number of different genres of tracks for all tracks.
    
-   We define "popular songs" as those with track popularity score ranking at top 20 
  
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
@@ -131,7 +133,7 @@ def reduce_genres(gen):
  
 
 
-2. Barplot for number of different genres of tracks for the past four years. 
+2.Barplot for number of different genres of tracks for the past four years. 
 
    
    <p align="center">
