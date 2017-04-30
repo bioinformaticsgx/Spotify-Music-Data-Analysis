@@ -119,13 +119,15 @@ def reduce_genres(gen):
 
 ### Popularity Analysis
 
-**First**, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.
+**First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.**
 
-What genres of tracks are prefered by listeners today?
+*What genres of tracks are prefered by listeners today?*
    
-Barplot for number of different genres of tracks for all tracks.
+Barplot for number of different genres of tracks, either popular or unpopular.
 
-Easily we saw `pop` music dominate music industry; followed by `rock`, `country`, `metal`, `hip`, etc.
+Easily we can see `pop` music dominate music industry; followed by `rock`, `country`, `metal`, `hip`, etc.
+
+These genres are produced in large quantity with certain proportion at top 20.
 
 Some genres have very small percentage that would become popular, like `punk` and `jazz`.
    
@@ -134,7 +136,14 @@ Some genres have very small percentage that would become popular, like `punk` an
    <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
  
- 
+
+*When were these popular tracks of different genres released?*
+
+Alluvial diagram shows proportion of popular tracks by release time for each genre of music.
+
+   <p align="center">
+   <img src="Figure/year-type-popularity.png" width="80%"/>
+   </p>
 
 
 2.Barplot for number of different genres of tracks for the past four years. 
