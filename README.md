@@ -253,6 +253,8 @@ importance = clf.feature_importances_
    </p>
  
 
+Since album popularity is quite similar and highly correlated to track popularity, we removed this feature and trained data again, our model still could achieve a high accuracy around 0.85.
+
 ## Summary and Discussion
 Here's the insight we've learned about music trend based on big data analysis:
 
