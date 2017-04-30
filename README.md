@@ -1,10 +1,25 @@
-## Music Data Trend Analysis
-
-https://jerryguangxu.github.io/Spotify-Music-Data-Analysis/
 
 ## Project introduction
+
+In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year), in order to analyze the trend of music industry development, and produce a predictive model for track popularity. 
+
+### The purposes are to provide some insight for the trend of music industry:
+
+1. Analyze the trend of music development over past 20 years. 
 ```
-In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year). 
+   For example:
+   Music has generally been louder than before? 
+   Duration is longer than before? 
+   What novel types of music have evolved popular in the past five years?
+```   
+2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning algorithms.
+
+   For example, is louder song more popular nowadays?
+```
+
+
+
+## Project introduction
 
 The information was pulled out from Spotify API and include: 
 1. General numeric features (e.g. release time, popularity, artist popularity), 
@@ -12,18 +27,6 @@ The information was pulled out from Spotify API and include:
 3. Non-numeric ones (e.g. genres, album name, artist name)
 
 One critical target variable is `track popularity`, which we used as indicator of popularity. It's provided by Spotify API, and calcuated by algorithms based on total number of plays the track has had and how recent those plays are.
-```
-
-### The purposes are to provide some insight for the trend of music industry:
-```
-1. Analyze the trend of music development over past 20 years. 
-
-   For example, the track has been louder than before? Or duration is longer than before?
-   
-2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning algorithm.
-
-   For example, is louder song more popular nowadays?
-```
 
 
 
