@@ -4,9 +4,9 @@
 In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
 
 
-<span style="color:red">some **This is Red Bold.** </span>
+<span style="color:red"></span>
 
-## Project Goals:
+## Project Goals
 
 **Analyze the trend of music development over past 20 years.** 
 
@@ -87,11 +87,11 @@ def reduce_genres(gen):
 
 **Critical features include:**
 
-⋅⋅⋅A. **Track_Popularity**
+⋅⋅⋅A. <span style="color:red">Track Popularity</span>
    
    Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays.
 
-⋅⋅⋅B. **Year**
+⋅⋅⋅B. <span style="color:red">Year</span>
    
    Used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
 
@@ -249,3 +249,9 @@ importance = clf.feature_importances_
    <img src="Figure/wordle.png" width="60%"/>
    </p>
  
+
+## Summary and Discussion
+1. Recent music favored (user psychology); physical features not much changed, except for energy/loudness, and valence.
+2. Pop music dominates; indie and house are new trend; rock in serious decline
+3. Album popularity strongly correlated;
+4. Model is sucessful.
