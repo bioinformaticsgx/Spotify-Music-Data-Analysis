@@ -1,7 +1,14 @@
 
 ## Project Introduction
 
-In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity. 
+In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
+
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
 
 ## Project Goals:
 
