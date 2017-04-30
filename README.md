@@ -1,7 +1,10 @@
 
 ## Project Introduction
 
-In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
+
+With the rise of Spotify, iTune, Youtube, etc, streaming services have contributed majority of music industry revenues. And understanding what makes streaming music popular could hugely impact decision-making for music business.
+
+In this project, we conducted data mining for 200000 tracks extracted by Spotify API, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
 
 
 <span style="color:red"></span>
