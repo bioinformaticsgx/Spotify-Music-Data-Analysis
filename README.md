@@ -6,17 +6,19 @@ In this project, we conducted data mining for the information of 200000 tracks o
 ### The purposes are to provide some insight for the trend of music industry:
 
 1. Analyze the trend of music development over past 20 years. 
-*`
+
    For example:
-   Music has generally been louder than before? 
+   *Music has generally been louder than before? 
    Duration is longer than before? 
-   What novel types of music have evolved popular in the past five years?
+   What novel types of music have evolved popular in the past five years?*
 
 
-2. Analyze what features are associated with popularity, and establish models to predict track popularity by machine learning algorithms.
+2. Establish models to predict track popularity by machine learning algorithms.
 
-   For example, is louder song more popular nowadays?
-```
+ 
+   *What features are associated with popularity?
+   What makes a song popular?*
+
 
 
 
