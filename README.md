@@ -117,7 +117,7 @@ def reduce_genres(gen):
 
 
 
-### Popularity Analysis
+### Popularity Analysis by Genres
 
 **First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.**
 
@@ -137,7 +137,7 @@ Some genres have very small percentage that would become popular, like `punk` an
    </p>
  
 
-*When were these popular tracks of different genres released?*
+**_When were these popular tracks of different genres released?_**
 
 Alluvial diagram shows proportion of popular tracks by release time for each genre of music.
 
@@ -156,9 +156,9 @@ To answer the above questions, we generated year-by-year streamplot, which illus
 
 The upper panel is for only popular tracks; while lower for total tracks.
 
-Clearly we could see house is brandnew genre, not exploading until 2010; followed by indie, which started to expand around 2005. Mexican music has been always there but only became popular from 2012.
+Clearly we could see `house` is brandnew genre, not exploading until 2010; followed by `indie`, which started to expand around 2005. `Mexican` music has been always there but only became popular from 2012.
 
-For rock, the whole market has dramatically shrinked; while latin and metal shrinked much slowly.
+For `rock`, the whole market has dramatically shrinked; while `latin` and `metal` shrinked much slowly.
 
 
    
@@ -172,16 +172,27 @@ For rock, the whole market has dramatically shrinked; while latin and metal shri
 
 
 
+### Popularity Analysis by numeric features
 
-4. Which features are associated with track popularity? 
-   Scatterplot between track popularity and features.
+**_Which numeric features are associated with track popularity?_**
+
+Association between track popularity and each numeric feature by scatterplot.
+
+We could see strong association for year and album popularity, which is not surprising. Also a slight association for artist popularity and loudness. 
+
+The remaining physical features are not associated at all.
+
+Comparison between album and artist popularity, we could see track popularity affected stronger by album, indicating popular artist's work could be popular or unpopular.
+
  
    <p align="center">
    <img src="Figure/modified-scatterplot-matrix.png" width="100%"/>
    </p>
 
 
-5. Album popularity and artist popularity are two strong features linearly associated.
+Scatterplot for relationship among album, artist and track popularity, which color indicating track popularity.
+
+We could see using album and artist alone, could predict track popularity to some extent. 
  
    <p align="center">
    <img src="Figure/album-artist-track.png" width="50%"/>
@@ -189,7 +200,7 @@ For rock, the whole market has dramatically shrinked; while latin and metal shri
 
 
 
-### Modeling: Random Forest Regression
+## Modeling: Random Forest Regression
 ```
 Before ML, correlation map for different features
 ```
