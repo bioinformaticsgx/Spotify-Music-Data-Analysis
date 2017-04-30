@@ -112,7 +112,7 @@ def reduce_genres(gen):
    
    
    <p align="center">
-   <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
+   <img src="Figure/modified-boxplot-matrix.png" width="110%"/>
    </p>
 
 
