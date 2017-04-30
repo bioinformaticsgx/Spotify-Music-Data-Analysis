@@ -33,17 +33,13 @@ Spotify provides amazing API resources
 [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
 
-```
-url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
-
-
+```url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
 requests.get(url).json()
 ```
-Acquire audio feature by track id; access_token required
-```
-url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
 
-r = requests.get(url, headers={"Authorization": access_token})
+Acquire audio feature by track id; access_token required
+```url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
+requests.get(url, headers={"Authorization": access_token})
 ```
 
 
