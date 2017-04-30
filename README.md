@@ -53,9 +53,20 @@ vectorizer = CountVectorizer(analyzer='word',max_features=100)
 WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
-**Then use pandas dataframe.**
-
-Cleaned data like:
+**Then merge into Pandas Dataframe and start feature engineering.**
+Examples of feature engineering include:
+```python
+## Remove NaN
+df = df.dropna()
+## Convert categorical features into numeric
+df['explicit'] = df['explicit'].map( {True: 1, False: 0} ).astype(int) 
+## Simplify genre names by choosing the most common word
+def reduce_genres(gen):
+    genre = re.sub("[^a-zA-Z0-9]"," ",gen).lower().split()
+    ...
+    mode1 = str(stats.mode(genre)).split('[')[1].split(']')[0]
+    return mode1
+```
 
 
 No location information
