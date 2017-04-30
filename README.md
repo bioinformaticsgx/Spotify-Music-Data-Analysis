@@ -4,7 +4,7 @@
 In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity.
 
 
-<span style="color:red">some **This is Red Bold.** text</span>
+<span style="color:red">some **This is Red Bold.** </span>
 
 ## Project Goals:
 
@@ -87,9 +87,9 @@ def reduce_genres(gen):
 
 **Critical features include:**
 
-⋅⋅⋅A. {color:#369}Track_Popularity{color}
+⋅⋅⋅A. Track_Popularity
    
-   Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays the track has had and how recent those plays are.
+   Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays.
 
 ⋅⋅⋅B. Year
    
@@ -99,10 +99,13 @@ def reduce_genres(gen):
 
 
 ## Exploratory Data Analysis and Data Visualization
-### General trend of numeric features of music over past 20 years
 
-1. First, regardless of popularity, time series barplot for 16 different numeric features.
-   Only loudness slightly change
+### General trend of numeric features of songs over past 20 years
+
+   Time-series for 16 different numeric features. (Purple lines reflect mean) 
+   We could easily find recent tracks, album and artists are favored by today's listeners.
+   Loudness and energy have slightly increased; while valence and acousticness decreased.
+   Track number 
    
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
