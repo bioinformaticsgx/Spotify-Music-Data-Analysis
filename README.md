@@ -1,9 +1,9 @@
 
-## Project introduction
+## Project Introduction
 
 In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity. 
 
-## The purposes:
+## Project Goals:
 
 **Analyze the trend of music development over past 20 years.** 
 
@@ -19,10 +19,23 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
 
 
-## Data Snippet
+## Data Extraction and Transformation
 
 [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
+
+```
+url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
+
+
+requests.get(url).json()
+```
+llalalal 
+```
+url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
+
+r = requests.get(url, headers={"Authorization": access_token})
+```
 The information was pulled out from Spotify API and include: 
 1. General numeric features (e.g. release time, popularity, artist popularity), 
 2. Numeric physical properties (e.g. loudness, duration) 
