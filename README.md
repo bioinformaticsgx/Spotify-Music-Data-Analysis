@@ -9,15 +9,15 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
   For example:
    
-   *Music has generally been louder than before?*
+ ⋅⋅⋅*Music has generally been louder than before?*
    
-   *What novel types of music have evolved popular in the past five years?*
+ ⋅⋅⋅*What novel types of music have evolved popular in the past five years?*
 
 
 **Establish models to predict track popularity by machine learning algorithms.**
 
    
-   *What makes a song popular?*
+ ⋅⋅⋅*What makes a song popular?*
 
 
 
