@@ -113,3 +113,9 @@ Before ML, correlation map for different features
 ----MAKE wordle!
 ```
 
+We define "popular songs" as those with track popularity score ranking at top 20 
+ 
+   <p align="center">
+   <img src="Figure/wordle.png" width="80%"/>
+   </p>
+ 
