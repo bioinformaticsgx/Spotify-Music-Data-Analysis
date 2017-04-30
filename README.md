@@ -16,13 +16,12 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
 **Establish models to predict track popularity by machine learning algorithms.**
 
-   
- ⋅⋅*What makes a song popular?*
-
 
 
 
 ## Data Snippet
+
+[Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
 The information was pulled out from Spotify API and include: 
 1. General numeric features (e.g. release time, popularity, artist popularity), 
