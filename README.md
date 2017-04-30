@@ -24,7 +24,7 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
 1. Spotify has provided amazing API resources:
 
-[Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
+   [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
 2. We randomly extracted data for 10000 tracks per year for the past 20 years.
 ```python
