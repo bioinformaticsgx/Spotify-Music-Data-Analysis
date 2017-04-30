@@ -1,5 +1,5 @@
 
-## Project Introduction
+## Project Introduction for Data Incubator Challenge
 
 
 With the rise of Spotify, iTune, Youtube, etc, streaming services have contributed majority of music industry revenues. And understanding what makes streaming music popular could hugely impact decision-making for music business.
