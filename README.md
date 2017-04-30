@@ -87,11 +87,11 @@ def reduce_genres(gen):
 
 **Critical features include:**
 
-⋅⋅⋅A. Track_Popularity
+⋅⋅⋅A. **Track_Popularity**
    
    Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays.
 
-⋅⋅⋅B. Year
+⋅⋅⋅B. **Year**
    
    Used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
 
@@ -102,13 +102,13 @@ def reduce_genres(gen):
 
 ### General trend of numeric features of songs over past 20 years
 
-   Time-series for 16 different numeric features. (Purple lines reflect mean) 
+   Time-series boxplot for 16 different numeric features. (Purple lines reflect mean) 
    
    We could easily find recent tracks, album and artists are favored by today's listeners.
    
-**Loudness** and **energy** have slightly _increased_; while **valence** and **acousticness** _decreased_.
+   **Loudness** and **energy** have slightly _increased_; while **valence** and **acousticness** _decreased_.
    
-**Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
+   **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="120%"/>
@@ -120,7 +120,7 @@ def reduce_genres(gen):
 
 1. What types of tracks are prefered by listeners today?
    
-   Barplot for number of different genres of tracks which are either popular or unpopular
+   Barplot for number of different genres of tracks for all tracks.
    
    We define "popular songs" as those with track popularity score ranking at top 20 
  
