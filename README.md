@@ -133,7 +133,7 @@ Some genres have very small percentage that would become popular, like `punk` an
    
  
    <p align="center">
-   <img src="Figure/modified-bar-plot.png" width="80%"/>
+   <img src="Figure/modified-bar-plot.png" width="90%"/>
    </p>
  
 
