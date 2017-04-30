@@ -51,11 +51,7 @@ Then use pandas dataframe
 
 Cleaned data like:
 
-```
-popularity	song_id	artist_id	album_id	song_name	artist_name	album_name	explicit	disc_number	track_number	uri	temptype	key	loudness	mode	speechiness	liveness	valence	danceability	energy	track_href	analysis_url	duration_ms	time_signature	acousticness	instrumentalness
-68	28UMEtwyUUy5u0UWOVHwiI	5ZEAzHE2TzAwUcOj6jMIgf	3Ohs7Jo6GM6mydUOL0m5aC	"I'll Make a Man Out of You - From ""Mulan""/Soundtrack"	Donny Osmond	Mulaspotify:track:28UMEtwyUUy5u0UWOVHwiI	113.845	audio_features	7.0	-17.503	1.0	0.0372	0.0664	0.535	0.6559999999999999	0.33	https://api.spotify.com/v1/tracks/28UMEtwyUUy5u0UWOVHwiI	https://api.spotify.com/v1/audio-analysis/28UMEtwyUUy5u0UWOVHwiI	201680.0	4.0	0.133	0.000109
 
-```
 No location information
 The information was pulled out from Spotify API and include: 
 1. General numeric features (e.g. release time, popularity, artist popularity), 
