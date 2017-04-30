@@ -123,7 +123,7 @@ def reduce_genres(gen):
    We define "popular songs" as those with track popularity score ranking at top 20 
  
    <p align="center">
-   <img src="Figure/barplot-genres.png" width="80%"/>
+   <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
  
  
