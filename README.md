@@ -54,23 +54,29 @@ WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
 **Then merge into Pandas Dataframe and start feature engineering.**
-Examples of feature engineering include:
+
+Examples of feature engineering:
 ```python
 ## Remove NaN
 df = df.dropna()
+
 ## Convert categorical features into numeric
 df['explicit'] = df['explicit'].map( {True: 1, False: 0} ).astype(int) 
+
+## New 'year' feature 
+df['year'] = [x.split('-')[0] for x in df['album_release_date']]
+
 ## Simplify genre names by choosing the most common word
 def reduce_genres(gen):
     genre = re.sub("[^a-zA-Z0-9]"," ",gen).lower().split()
     ...
     mode1 = str(stats.mode(genre)).split('[')[1].split(']')[0]
     return mode1
+    
 ```
 
 
-No location information
-The information was pulled out from Spotify API and include: 
+
 1. General numeric features (e.g. release time, popularity, artist popularity), 
 2. Numeric physical properties (e.g. loudness, duration) 
 3. Non-numeric ones (e.g. genres, album name, artist name)
