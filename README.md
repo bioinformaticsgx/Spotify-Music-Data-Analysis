@@ -10,9 +10,9 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
   For example:
    
- ⋅⋅*Music has generally been louder than before?*
+ ⋅⋅⋅*Music has generally been louder than before?*
    
- ⋅⋅*What novel types of music have evolved popular in the past five years?*
+ ⋅⋅⋅*What novel types of music have evolved popular in the past five years?*
 
 
 **Establish models to predict track popularity by machine learning algorithms.**
@@ -77,11 +77,11 @@ def reduce_genres(gen):
 
 **Final cleaned data include:**
 
-⋅⋅1. General numeric features *(e.g. release time, track popularity, artist popularity)*
+⋅⋅⋅1. General numeric features *(e.g. release time, track popularity, artist popularity)*
 
-⋅⋅2. Numeric physical properties *(e.g. loudness, duration)*
+⋅⋅⋅2. Numeric physical properties *(e.g. loudness, duration)*
 
-⋅⋅3. Vectorized Non-numeric ones *(e.g. genres, album name, artist name)*
+⋅⋅⋅3. Vectorized Non-numeric ones *(e.g. genres, album name, artist name)*
 
 
 One critical target variable is `track popularity`, which we used as indicator of popularity. It's provided by Spotify API, and calcuated by algorithms based on total number of plays the track has had and how recent those plays are.
