@@ -1,28 +1,28 @@
 
 ## Project introduction
 
-In this project, we conducted data mining for the information of 200000 tracks over the past 20 years (10000 tracks per year), in order to analyze the trend of music industry development, and produce a predictive model for track popularity. 
+In this project, we conducted data mining for 200000 tracks over the past 20 years, in order to analyze the trend of music industry development, and produce a predictive model for track popularity. 
 
-### The purposes are to provide some insight for the trend of music industry:
+## The purposes:
 
-1. Analyze the trend of music development over past 20 years. 
+**1. Analyze the trend of music development over past 20 years. 
 
    For example:
    *Music has generally been louder than before? 
    Duration is longer than before? 
-   What novel types of music have evolved popular in the past five years?*
+   What novel types of music have evolved popular in the past five years?
 
 
-2. Establish models to predict track popularity by machine learning algorithms.
+**2. Establish models to predict track popularity by machine learning algorithms.
 
  
    *What features are associated with popularity?
-   What makes a song popular?*
+   What makes a song popular?
 
 
 
 
-## Project introduction
+## Data Snippet
 
 The information was pulled out from Spotify API and include: 
 1. General numeric features (e.g. release time, popularity, artist popularity), 
