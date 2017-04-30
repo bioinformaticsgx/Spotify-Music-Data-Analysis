@@ -33,21 +33,25 @@ Spotify provides amazing API resources
 [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
 
-```url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
+```python
+url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
 requests.get(url).json()
 ```
 
 Acquire audio feature by track id; access_token required
-```url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
+
+```python
+url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
 requests.get(url, headers={"Authorization": access_token})
 ```
 
 
 bag-of-words model
 
-```vectorizer = CountVectorizer(analyzer='word',max_features=30)
+```python
+vectorizer = CountVectorizer(analyzer='word',max_features=30)
 feature = vectorizer.fit_transform(dicname[name]).toarray().tolist()
-print(s)
+print(feature)
 ```
 
 Then use pandas dataframe
