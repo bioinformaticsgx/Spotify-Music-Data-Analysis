@@ -85,7 +85,7 @@ def reduce_genres(gen):
 
 **Critical features include:**
 
-⋅⋅⋅A. Track_Popularity
+⋅⋅⋅A. <span style="color:blue">some Track_Popularity text</span>
    
    Major indicator of song popularity and later used for correlation and data training in this project. It reflects "hotness"    by today's music listeners, calculated by total number of plays the track has had and how recent those plays are.
 
