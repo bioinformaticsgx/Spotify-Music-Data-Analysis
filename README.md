@@ -176,13 +176,13 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
 
 **_Which numeric features are associated with track popularity?_**
 
-Association between track popularity and each numeric feature by scatterplot.
+Association between **track popularity** and each numeric feature by scatterplot.
 
-We could see strong association for year and album popularity, which is not surprising. Also a slight association for artist popularity and loudness. 
+We could see strong association for **year** and **album popularity**, which is not surprising. Also a slight association for **track number**, **artist popularity** and **loudness**. 
 
 The remaining physical features are not associated at all.
 
-Comparison between album and artist popularity, we could see track popularity affected stronger by album, indicating popular artist's work could be popular or unpopular.
+Comparison between **album** and **artist popularity**, we could see **track popularit**y affected stronger by **album**, indicating popular artist's work could be popular or unpopular.
 
  
    <p align="center">
@@ -204,28 +204,44 @@ We could see using album and artist alone, could predict track popularity to som
 
 Before machine learning step, chord diagram generated for correlation between numeric features.
 
-We could see some strong pair correlations, such as loudness and energy, loudness and acousticness, speechiness and explicit.
+We could see some strong pair correlations, such as **loudness** and **energy**, **loudness** and **acousticness**, **speechiness** and **explicit**.
 
    <p align="center">
    <img src="Figure/corr-map.png" width="80%"/>
    </p>
 
 
-Our final dataframe is (215868 tracks X 419 features) for data training.
+We dropped all non-numeric features, and our final dataframe is (215868 tracks X 419 features) for data training.
 
-Various machine learning algorithms have been tried and gradient boosting classifier by XGBoost show the best accuracy score.
+Various machine learning algorithms have been tried and gradient boosting classifier by *XGBoost* show the best accuracy score.
+|               |    CV     |    Test    |
+|  Algorithms   | Acurracy  |  Acurracy  | 
+| ------------- |:---------:| :---------:| 
+| SVM           |   0.82    |    0.79    |
+| Random Forest |   0.85    |    0.83    |  
+| XGBClassifier |   0.89    |    0.88    |
 
-| Algorithms    | Acurracy  | 
-| ------------- |:---------:| 
-| SVM           |   0.82    | 
-| Random Forest |   0.85    |   
-| XGBClassifier |   0.89    |
+We also tuned our parameters for **XGBClassifier**, with optimal as below:
 
+```python
+clf  =  XGBClassifier(
+        eval_metric = 'accuracy',
+        learning_rate = 0.1,
+        n_estimators = 100,
+        max_depth = 3,
+        subsample = 0.9,
+        colsample_bytree = 0.9,
+        silent = False )
+ ```
 
-2. Which features are most predictive?
-----MAKE wordle!
+**_Which features are most predictive?_**
 
-We define "popular songs" as those with track popularity score ranking at top 20 
+We converted the importance-weight list into wordle.
+
+We could see **album popularity** dominates all other features, followed by **track number**, **year** and **duration**.
+```python
+importance = clf.feature_importances_
+```
  
    <p align="center">
    <img src="Figure/wordle.png" width="80%"/>
