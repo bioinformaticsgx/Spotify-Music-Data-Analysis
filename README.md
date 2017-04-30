@@ -213,13 +213,15 @@ We could see some strong pair correlations, such as **loudness** and **energy**,
 
 We dropped all non-numeric features, and our final dataframe is (215868 tracks X 419 features) for data training.
 
-Various machine learning algorithms have been tried and gradient boosting classifier by *XGBoost* show the best accuracy score.
+Various machine learning algorithms have been tried and gradient boosting classifier by *XGBoost* show the best accuracy score. 
 
-|  Algorithms   | Acurracy  |  Acurracy  | 
+|  Algorithms   | CV Accu   | Test Accu  | 
 | ------------- |:---------:|  ---------:| 
 | SVM           |   0.82    |    0.79    |
 | Random Forest |   0.85    |    0.83    |  
 | XGBClassifier |   0.89    |    0.88    |
+
+(Accu = Accuracy)
 
 We also tuned our parameters for **XGBClassifier**, with optimal as below:
 
