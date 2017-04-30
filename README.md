@@ -121,7 +121,7 @@ def reduce_genres(gen):
 
 **First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.**
 
-*What genres of tracks are prefered by listeners today?*
+**_What genres of tracks are prefered by listeners today?_**
    
 Barplot for number of different genres of tracks, either popular or unpopular.
 
