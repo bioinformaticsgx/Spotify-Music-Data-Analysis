@@ -256,11 +256,11 @@ importance = clf.feature_importances_
 ## Summary and Discussion
 Here's the insight we've learned about music trend based on big data analysis:
 
-1.Recent music is still largely favored, indicating customers' music "psychology" leaning towards trying novel tracks. 
+1.**Recent music is still largely favored**, indicating customers' music "psychology" leaning towards trying novel tracks. 
 
-2.Some physical features of music with high popularity have slightly changed, including energy/loudness slightly increased, and valence slightly decreased. It'll be interesting to see if such small trend will continue.
+2.Some physical features of music with high popularity have slightly changed, including **energy/loudness** slightly increased, and **valence** slightly decreased. It'll be interesting to see if such small trend will continue.
 
-Also, track number has been lower, indicating smaller album in music industry nowadays.
+Also, track number has been lower, indicating **smaller album** in music industry nowadays.
 
 3.`Pop music` undoubtedly dominates the music market, in both production quantity and popularity quantity; while some other genres like `soul` and `classical` have almost zero percentage of being top 20 popular, most probably because they are minority music favored by a small population.
 
