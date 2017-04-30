@@ -22,17 +22,17 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
 ## Data Extraction and Transformation
 
-**Spotify has provided amazing API resources:
+**Spotify has provided amazing API resources:**
 
    [Spotify API link](https://developer.spotify.com/web-api/track-endpoints/)
 
-**We randomly extracted data for 10000 tracks per year for the past 20 years.
+**We randomly extracted data for 10000 tracks per year for the past 20 years.**
 ```python
 url = 'https://api.spotify.com/v1/search?q=year:'+ keywords +'&type=' + search_type +'&offset='+ off +'&limit=' + lim
 requests.get(url).json()
 ```
 
-**Then acquire audio feature data by track_id; Access_token is required for this.
+**Then acquire audio feature data by track_id; Access_token is required for this.**
 
 ```python
 url = 'https://api.spotify.com/v1/audio-features?ids=' + track_ids
@@ -40,14 +40,14 @@ requests.get(url, headers={"Authorization": access_token})
 ```
 
 
-**Vectorization of text (e.g. genres or name) by bag-of-words model
+**Vectorization of text (e.g. genres or name) by bag-of-words model.**
 
 ```python
 vectorizer = CountVectorizer(analyzer='word',max_features=100)
 WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
-**Then use pandas dataframe
+**Then use pandas dataframe.**
 
 Cleaned data like:
 
