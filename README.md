@@ -7,21 +7,21 @@ In this project, we conducted data mining for 200000 tracks over the past 20 yea
 
 **1.Analyze the trend of music development over past 20 years.** 
 
-    For example:
+   For example:
    
-   *Music has generally been louder than before? 
+   *Music has generally been louder than before?*
    
-   *Duration is longer than before? 
+   *Duration is longer than before?*
    
-   *What novel types of music have evolved popular in the past five years?
+   *What novel types of music have evolved popular in the past five years?*
 
 
 **2.Establish models to predict track popularity by machine learning algorithms.**
 
  
-   *What features are associated with popularity?
+   *What features are associated with popularity?*
    
-   *What makes a song popular?
+   *What makes a song popular?*
 
 
 
