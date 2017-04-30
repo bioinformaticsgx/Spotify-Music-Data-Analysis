@@ -1,0 +1,2 @@
+
+ggplot(data=data, aes(fill=Class, y=Track_Num, x=reorder(Genres,-Track_Num))) + geom_bar(stat="identity") + theme(panel.background = element_blank(),axis.text.x = element_text(angle = 45, hjust = 1,size=8)) + ylab("Num") + xlab("Genres")
