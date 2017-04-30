@@ -75,11 +75,11 @@ def reduce_genres(gen):
     
 ```
 
+**Final cleaned data include:**
 
-
-1. General numeric features (e.g. release time, popularity, artist popularity), 
+1. General numeric features (e.g. release time, track popularity, artist popularity), 
 2. Numeric physical properties (e.g. loudness, duration) 
-3. Non-numeric ones (e.g. genres, album name, artist name)
+3. Vectorized Non-numeric ones (e.g. genres, album name, artist name)
 
 One critical target variable is `track popularity`, which we used as indicator of popularity. It's provided by Spotify API, and calcuated by algorithms based on total number of plays the track has had and how recent those plays are.
 
