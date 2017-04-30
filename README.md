@@ -41,8 +41,8 @@ r = requests.get(url, headers={"Authorization": access_token})
 
 
 bag-of-words model
-```
-vectorizer = CountVectorizer(analyzer='word',max_features=30)
+
+```vectorizer = CountVectorizer(analyzer='word',max_features=30)
 feature = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 print(s)
 ```
