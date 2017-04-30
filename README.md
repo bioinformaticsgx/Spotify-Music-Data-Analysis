@@ -83,8 +83,12 @@ def reduce_genres(gen):
 
 ⋅⋅⋅3. Vectorized Non-numeric ones *(e.g. genres, album name, artist name)*
 
+**Critical features include:**
 
-One critical target variable is `track popularity`, which we used as indicator of popularity. It's provided by Spotify API, and calcuated by algorithms based on total number of plays the track has had and how recent those plays are.
+⋅⋅⋅A. Track_Popularity, which is major indicator of song popularity and later used for correlation and data training in this         project. It reflects "hotness" by today's music listeners, calculated by total number of plays the track has had and how       recent those plays are.
+
+⋅⋅⋅B. Year, which is used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
+
 
 
 
