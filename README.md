@@ -122,7 +122,11 @@ def reduce_genres(gen):
 
 ### Popularity Analysis by Genres
 
-**First, we define "popular songs" as those with track popularity score ranking at *top 20* of all tracks.**
+**First, we define "popular songs" as those with track popularity score ranking at *
+
+
+
+%* of all tracks.**
 
 **_What genres of tracks are prefered by listeners today?_**
    
@@ -130,7 +134,7 @@ Barplot for number of different genres of tracks, either popular or unpopular.
 
 Easily we can see `pop` music dominate music industry; followed by `rock`, `country`, `metal`, `hip`, etc.
 
-These genres are produced in large quantity with certain proportion at top 20.
+These genres are produced in large quantity with certain proportion at top 20%.
 
 Some genres have very small percentage that would become popular, like `classical`, `soul`, `punk` and `jazz`.
    
@@ -264,7 +268,7 @@ Here's the insight we've learned about music trend based on big data analysis:
 
 Also, track number has been lower, indicating **smaller album** in music industry nowadays.
 
-3.`Pop music` undoubtedly dominates the music market, in both production quantity and popularity quantity; while some other genres like `soul` and `classical` have almost zero percentage of being top 20 popular, most probably because they are minority music favored by a small population.
+3.`Pop music` undoubtedly dominates the music market, in both production quantity and popularity quantity; while some other genres like `soul` and `classical` have almost zero percentage of being top 20% popular, most probably because they are minority music favored by a small population.
 
 4.Important change: `indie` and `house` are brandnew genres and novel trend! While `rock`, which used to be prosperous, has now shrinked dramatically. 
 
