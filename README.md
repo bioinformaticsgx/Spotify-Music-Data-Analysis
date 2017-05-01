@@ -193,7 +193,7 @@ Comparison between **album** and **artist popularity**, we could see **track pop
    </p>
 
 
-Scatterplot for relationship among album, artist and track popularity, which color indicating track popularity.
+Scatterplot for relationship among album, artist and track popularity, in which color indicating track popularity.
 
 We could see using album and artist alone, could predict track popularity to some extent. 
  
