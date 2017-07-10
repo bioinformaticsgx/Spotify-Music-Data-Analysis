@@ -218,11 +218,11 @@ We dropped all non-numeric features, and our final dataframe is (215868 tracks X
 
 Various machine learning algorithms have been tried and gradient boosting classifier by *XGBoost* show the best accuracy score. 
 
-|  Algorithms   | CV Accu   | Test Accu  | 
-| ------------- |:---------:|  ---------:| 
-| SVM           |   0.82    |    0.79    |
-| Random Forest |   0.85    |    0.83    |  
-| XGBClassifier |   0.89    |    0.88    |
+|  Algorithms   | CV Accu     | Test Accu    | 
+| ------------- |:---------:  |  ---------:  | 
+| SVM           |   0.8254    |    0.7911    |
+| Random Forest |   0.8534    |    0.8379    |  
+| XGBClassifier |   0.8901    |    0.8812    |
 
 (Accu = Accuracy)
 
