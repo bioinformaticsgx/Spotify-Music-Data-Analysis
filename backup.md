@@ -97,7 +97,9 @@ def reduce_genres(gen):
    Used extensively for time-series analysis to demonstrate the trend of music evolution in the project.
 
 
-
+<br />
+<br />
+<br />
 
 ## Exploratory Data Analysis and Data Visualization
 
@@ -116,7 +118,9 @@ def reduce_genres(gen):
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
    </p>
 
-
+<br />
+<br />
+<br />
 
 ### Popularity Analysis by Genres
 
@@ -138,6 +142,10 @@ Some genres have very small percentage that would become popular, like `classica
    </p>
  
 
+<br />
+<br />
+<br />
+
 **_When were these popular tracks of different genres released?_**
 
 We generated year-by-year streamplot, which illustrates time-dependent trend.
@@ -158,7 +166,9 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
    <img src="Figure/stream-total.png" width="60%"/>
    </p>
 
-
+<br />
+<br />
+<br />
 
 ## Predictive Modeling by Gradient Boosting
 
