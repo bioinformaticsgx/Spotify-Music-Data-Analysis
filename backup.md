@@ -152,9 +152,6 @@ Some genres have very small percentage that would become popular, like `classica
    <br />
    <br />  
    <br />
-   <br />
-   <br />
-   <br />
    The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
