@@ -98,6 +98,7 @@ def reduce_genres(gen):
 
 
 <br />
+<br />
 
 
 ## Exploratory Data Analysis and Data Visualization
@@ -118,15 +119,11 @@ def reduce_genres(gen):
    <br />
    <br />
    <br />
-   <br />
-   <br />
-   <br />
-   **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
+   The general trend figure is as below:
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
    </p>
 
-<br />
 <br />
 <br />
 
@@ -147,12 +144,15 @@ Some genres have very small percentage that would become popular, like `classica
    <br />  
    <br />
    <br />
+   <br />  
+   <br />
+   <br />
+   The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
  
 
-<br />
 <br />
 <br />
 
@@ -171,12 +171,14 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
    <p align="center">
    <img src="Figure/stream-pop.png" width="60%"/>
    </p>
-
+    
+    <br />
+    <br />
+    <br />
    <p align="center">
    <img src="Figure/stream-total.png" width="60%"/>
    </p>
 
-<br />
 <br />
 <br />
 
