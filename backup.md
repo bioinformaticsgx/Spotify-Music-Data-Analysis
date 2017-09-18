@@ -51,6 +51,10 @@ vectorizer = CountVectorizer(analyzer='word',max_features=100)
 WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
+
+
+
+
 **Then merge into Pandas Dataframe and start feature engineering.**
 
 Examples of feature engineering:
