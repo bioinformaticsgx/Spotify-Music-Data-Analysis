@@ -52,7 +52,9 @@ WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 ```
 
 
-
+&npsp;
+&npsp;
+&npsp;
 
 
 **Then merge into Pandas Dataframe and start feature engineering.**
