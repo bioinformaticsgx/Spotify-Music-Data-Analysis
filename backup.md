@@ -144,6 +144,7 @@ def reduce_genres(gen):
 <br />
 <br />
 <br />
+<br />
 
 ### 2.Popularity Analysis by Genres
 
@@ -206,6 +207,14 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
    <img src="Figure/stream-total.png" width="60%"/>
    </p>
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 
