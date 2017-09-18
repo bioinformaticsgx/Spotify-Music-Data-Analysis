@@ -194,13 +194,18 @@ Clearly we could see `house` is brandnew genre, not exploading until 2010; follo
 
 For `rock`, the whole market has dramatically shrinked.
 
-
+   <br />
+   <br />
+   <br />
    
    <p align="center">
-   <img src="Figure/stream-pop.png" width="80%"/>
+   <img src="Figure/stream-pop.png" width="70%"/>
    </p>
 
 
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
@@ -222,7 +227,7 @@ Before machine learning step, chord diagram generated for correlation between nu
 We could see some strong pair correlations, such as **loudness** and **energy**, **loudness** and **acousticness**, **speechiness** and **explicit**.
 
    <p align="center">
-   <img src="Figure/corr-map-1.png" width="60%"/>
+   <img src="Figure/corr-map-1.png" width="70%"/>
    </p>
 
 
