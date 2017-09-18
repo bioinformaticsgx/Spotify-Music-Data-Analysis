@@ -197,7 +197,7 @@ For `rock`, the whole market has dramatically shrinked.
 
    
    <p align="center">
-   <img src="Figure/stream-pop.png" width="60%"/>
+   <img src="Figure/stream-pop.png" width="80%"/>
    </p>
 
 
@@ -222,7 +222,7 @@ Before machine learning step, chord diagram generated for correlation between nu
 We could see some strong pair correlations, such as **loudness** and **energy**, **loudness** and **acousticness**, **speechiness** and **explicit**.
 
    <p align="center">
-   <img src="Figure/corr-map.png" width="60%"/>
+   <img src="Figure/corr-map-1.png" width="60%"/>
    </p>
 
 
