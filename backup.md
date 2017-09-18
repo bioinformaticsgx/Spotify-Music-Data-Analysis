@@ -192,12 +192,12 @@ We generated year-by-year streamplot for popular tracks, which illustrates time-
 
 Clearly we could see `house` is brandnew genre, not exploading until 2010; followed by `indie`, which started to expand around 2005. `Mexican` music has been always there but only became popular from 2012.
 
-For `rock`, the whole market has dramatically shrinked; while `latin` and `metal` shrinked much slowly.
+For `rock`, the whole market has dramatically shrinked.
 
 
    
    <p align="center">
-   <img src="Figure/stream-pop.png" width="80%"/>
+   <img src="Figure/stream-pop.png" width="60%"/>
    </p>
 
 
