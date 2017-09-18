@@ -185,6 +185,8 @@ Some genres have very small percentage that would become popular, like `classica
 <br />
 <br />
 <br />
+<br />
+<br />
 
 **_2b.When were these popular tracks of different genres released?_**
 
@@ -219,6 +221,11 @@ For `rock`, the whole market has dramatically shrinked.
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Predictive Modeling by Gradient Boosting
 
@@ -227,7 +234,7 @@ Before machine learning step, chord diagram generated for correlation between nu
 We could see some strong pair correlations, such as **loudness** and **energy**, **loudness** and **acousticness**, **speechiness** and **explicit**.
 
    <p align="center">
-   <img src="Figure/corr-map-1.png" width="70%"/>
+   <img src="Figure/corr-map-1.png" width="60%"/>
    </p>
 
 
