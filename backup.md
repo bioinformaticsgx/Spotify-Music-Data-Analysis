@@ -155,26 +155,6 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
 
 
 
-### Popularity Analysis by numeric features
-
-**_Which numeric features are associated with track popularity?_**
-
-Association between **track popularity** and each numeric feature by scatterplot.
-
-We could see strong association for **year** and **album popularity**, which is not surprising. Also a slight association for **track number**, **artist popularity** and **loudness**. 
-
-The remaining physical features are not associated at all.
-
-Comparison between **album** and **artist popularity**, we could see **track popularit**y affected stronger by **album**, indicating popular artist's work could be popular or unpopular.
-
- 
-   <p align="center">
-   <img src="Figure/modified-scatterplot-matrix.png" width="100%"/>
-   </p>
-
-
-
-
 ## Predictive Modeling by Gradient Boosting
 
 Before machine learning step, chord diagram generated for correlation between numeric features.
