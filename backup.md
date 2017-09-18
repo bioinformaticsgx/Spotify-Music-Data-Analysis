@@ -128,7 +128,6 @@ def reduce_genres(gen):
    **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
    <br />
-   The general trend figure is as below:
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
    </p>
@@ -162,7 +161,6 @@ Some genres have very small percentage that would become popular, like `classica
    
    <br />  
    <br />
-   The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
@@ -179,6 +177,12 @@ Some genres have very small percentage that would become popular, like `classica
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 **_2b.When were these popular tracks of different genres released?_**
 
 We generated year-by-year streamplot, which illustrates time-dependent trend. The upper panel is for only popular tracks; while lower for total tracks.
