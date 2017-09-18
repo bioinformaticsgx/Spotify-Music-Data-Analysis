@@ -8,7 +8,7 @@ In this project, we conducted data mining for 200000 tracks extracted by Spotify
 
 
 <span style="color:red"></span>
-<br />
+
 
 ## Project Goals
 
@@ -16,8 +16,6 @@ In this project, we conducted data mining for 200000 tracks extracted by Spotify
 
 **Establish models to predict track popularity by machine learning algorithms.**
 
-
-<br />
 
 ## Data Extraction and Transformation
 
@@ -54,7 +52,7 @@ WordVec = vectorizer.fit_transform(dicname[name]).toarray().tolist()
 
 <br />
 <br />
-
+<br />
 
 **Then merge into Pandas Dataframe and start feature engineering.**
 
