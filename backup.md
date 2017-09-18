@@ -119,11 +119,14 @@ def reduce_genres(gen):
    <br />
    <br />
    <br />
+   <br />
+   <br />
    The general trend figure is as below:
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
    </p>
 
+<br />
 <br />
 <br />
 
@@ -150,6 +153,8 @@ Some genres have very small percentage that would become popular, like `classica
    <br />  
    <br />
    <br />
+   <br />
+   <br />
    The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
@@ -161,20 +166,23 @@ Some genres have very small percentage that would become popular, like `classica
 
 **_2b.When were these popular tracks of different genres released?_**
 
-We generated year-by-year streamplot, which illustrates time-dependent trend.
-
-The upper panel is for only popular tracks; while lower for total tracks.
+We generated year-by-year streamplot, which illustrates time-dependent trend. The upper panel is for only popular tracks; while lower for total tracks.
 
 Clearly we could see `house` is brandnew genre, not exploading until 2010; followed by `indie`, which started to expand around 2005. `Mexican` music has been always there but only became popular from 2012.
 
 For `rock`, the whole market has dramatically shrinked; while `latin` and `metal` shrinked much slowly.
 
 
-   
+   The two streamplots are as below:
    <p align="center">
    <img src="Figure/stream-pop.png" width="60%"/>
    </p>
     
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
