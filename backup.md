@@ -98,8 +98,7 @@ def reduce_genres(gen):
 
 
 <br />
-<br />
-<br />
+
 
 ## Exploratory Data Analysis and Data Visualization
 
@@ -113,6 +112,8 @@ def reduce_genres(gen):
    
    **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
+   <br />
+   <br />
    
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
@@ -136,7 +137,8 @@ These genres are produced in large quantity with certain proportion at top 20%.
 
 Some genres have very small percentage that would become popular, like `classical`, `soul`, `punk` and `jazz`.
    
- 
+   <br />  
+   <br />
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
