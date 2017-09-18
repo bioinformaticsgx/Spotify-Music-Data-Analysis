@@ -110,6 +110,8 @@ def reduce_genres(gen):
 <br />
 <br />
 <br />
+<br />
+<br />
 
 
 ## Exploratory Data Analysis and Data Visualization
@@ -124,8 +126,6 @@ def reduce_genres(gen):
    
    **Track number** has been _lower_ in recent 10 years, indicating album is _smaller_ nowadays.
    
-   <br />
-   <br />
    <br />
    The general trend figure is as below:
    <p align="center">
