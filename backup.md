@@ -103,7 +103,7 @@ def reduce_genres(gen):
 
 ## Exploratory Data Analysis and Data Visualization
 
-### General trend of numeric features of songs over past 20 years
+### 1.General trend of numeric features of songs over past 20 years
 
    Time-series boxplot for 16 different numeric features. (Purple lines reflect mean) 
    
@@ -127,11 +127,11 @@ def reduce_genres(gen):
 <br />
 <br />
 
-### Popularity Analysis by Genres
+### 2.Popularity Analysis by Genres
 
-**First, we define "popular songs" as those with track popularity score ranking at *top 20%* of all tracks.**
+**We define "popular songs" as those with track popularity score ranking at *top 20%* of all tracks.**
 
-**_What genres of tracks are prefered by listeners today?_**
+**_2a.What genres of tracks are prefered by listeners today?_**
    
 Barplot for number of different genres of tracks, either popular or unpopular.
 
@@ -147,6 +147,9 @@ Some genres have very small percentage that would become popular, like `classica
    <br />  
    <br />
    <br />
+   <br />  
+   <br />
+   <br />
    The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
@@ -156,7 +159,7 @@ Some genres have very small percentage that would become popular, like `classica
 <br />
 <br />
 
-**_When were these popular tracks of different genres released?_**
+**_2b.When were these popular tracks of different genres released?_**
 
 We generated year-by-year streamplot, which illustrates time-dependent trend.
 
@@ -172,9 +175,9 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
    <img src="Figure/stream-pop.png" width="60%"/>
    </p>
     
-    <br />
-    <br />
-    <br />
+<br />
+<br />
+<br />
    <p align="center">
    <img src="Figure/stream-total.png" width="60%"/>
    </p>
