@@ -13,13 +13,6 @@ In this project, we conducted data mining for 200000 tracks extracted by Spotify
 
 **Analyze the trend of music development over past 20 years.** 
 
-  For example:
-   
- ⋅⋅⋅*Music has generally been louder than before?*
-   
- ⋅⋅⋅*What novel types of music have evolved popular in the past five years?*
-
-
 **Establish models to predict track popularity by machine learning algorithms.**
 
 
@@ -142,20 +135,7 @@ Some genres have very small percentage that would become popular, like `classica
 
 **_When were these popular tracks of different genres released?_**
 
-Alluvial diagram shows proportion of popular tracks by release time for each genre of music.
-
-We could see for popular `pop`, `rap`, `country`, `indie`, `hip`, `house`, `mexican` music, at least half come from recent five years.
-
-For `indie`, `house` and `mexican`, almost all come from recent five years. So they appeared recently, or suddently became popular?
-
-For `rock`, `latin`, `metal`, lots of older tracks still favored. So such music have been on decline?
-
-   <p align="center">
-   <img src="Figure/year-type-popularity.png" width="80%"/>
-   </p>
-
-
-To answer the above questions, we generated year-by-year streamplot, which illustrates time-dependent trend better.
+We generated year-by-year streamplot, which illustrates time-dependent trend.
 
 The upper panel is for only popular tracks; while lower for total tracks.
 
@@ -192,14 +172,6 @@ Comparison between **album** and **artist popularity**, we could see **track pop
    <img src="Figure/modified-scatterplot-matrix.png" width="100%"/>
    </p>
 
-
-Scatterplot for relationship among album, artist and track popularity, in which color indicating track popularity.
-
-We could see using album and artist alone, could predict track popularity to some extent. 
- 
-   <p align="center">
-   <img src="Figure/album-artist-track.png" width="70%"/>
-   </p>
 
 
 
@@ -271,9 +243,5 @@ Also, track number has been lower, indicating **smaller album** in music industr
 5.There's basically NO correlation between track popularity and numeric physical features; yet, there's strong correlation among track, album and artist popularity, which is not suprising; and there's also slight correlation between track popularity and track number, which is also not surprising, as most popular songs are usually the first in the album.
 
 6.We established a machine learning model, which could successfully predict track popularity. Ensemble methods are extremely good for analyzing multi-feature data with non-linear relationship, plus XGBoost has recently dominated data science field with extreme superiority, so we choose XGBClassifier to train our data, and achieved very excellent accuracy score for both cross-validated and test data. The best predictive feature is album popularity.
-
-7.We are using API data, which could better reflect the most recent trend; and we vectorized text feature into numeric to strengthen our models. 
-
-8.Unfortunately, Spotify API does NOT provide location information for users; otherwise it'll be good idea to analyze music taste difference for different states as well as across the globe.
 
 In general, we've analyzed Spotify API data, and have discovered some very interesting trends for today's music market, and also provide a high-quality model for track popularity prediction. Hopefully this could provide some insight into today and future's music market and industry.
