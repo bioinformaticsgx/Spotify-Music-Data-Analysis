@@ -108,7 +108,7 @@ def reduce_genres(gen):
    
    
    <p align="center">
-   <img src="Figure/modified-boxplot-matrix.png" width="110%"/>
+   <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
    </p>
 
 
@@ -129,7 +129,7 @@ Some genres have very small percentage that would become popular, like `classica
    
  
    <p align="center">
-   <img src="Figure/modified-bar-plot.png" width="90%"/>
+   <img src="Figure/modified-bar-plot.png" width="80%"/>
    </p>
  
 
@@ -146,11 +146,11 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
 
    
    <p align="center">
-   <img src="Figure/stream-pop.png" width="80%"/>
+   <img src="Figure/stream-pop.png" width="60%"/>
    </p>
 
    <p align="center">
-   <img src="Figure/stream-total.png" width="80%"/>
+   <img src="Figure/stream-total.png" width="60%"/>
    </p>
 
 
@@ -162,7 +162,7 @@ Before machine learning step, chord diagram generated for correlation between nu
 We could see some strong pair correlations, such as **loudness** and **energy**, **loudness** and **acousticness**, **speechiness** and **explicit**.
 
    <p align="center">
-   <img src="Figure/corr-map.png" width="80%"/>
+   <img src="Figure/corr-map.png" width="60%"/>
    </p>
 
 
