@@ -188,16 +188,16 @@ Some genres have very small percentage that would become popular, like `classica
 
 **_2b.When were these popular tracks of different genres released?_**
 
-Alluvial diagram shows proportion of popular tracks by release time for each genre of music.
+We generated year-by-year streamplot for popular tracks, which illustrates time-dependent trend.
 
-We could see for popular `pop`, `rap`, `country`, `indie`, `hip`, `house`, `mexican` music, at least half come from recent five years.
+Clearly we could see `house` is brandnew genre, not exploading until 2010; followed by `indie`, which started to expand around 2005. `Mexican` music has been always there but only became popular from 2012.
 
-For `indie`, `house` and `mexican`, almost all come from recent five years. So they appeared recently, or suddently became popular?
+For `rock`, the whole market has dramatically shrinked; while `latin` and `metal` shrinked much slowly.
 
-For `rock`, `latin`, `metal`, lots of older tracks still favored. So such music have been on decline?
 
+   
    <p align="center">
-   <img src="Figure/year-type-popularity.png" width="80%"/>
+   <img src="Figure/stream-pop.png" width="80%"/>
    </p>
 
 
