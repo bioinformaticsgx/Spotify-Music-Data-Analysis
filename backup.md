@@ -182,6 +182,8 @@ Some genres have very small percentage that would become popular, like `classica
 <br />
 <br />
 <br />
+<br />
+<br />
 
 **_2b.When were these popular tracks of different genres released?_**
 
@@ -192,7 +194,6 @@ Clearly we could see `house` is brandnew genre, not exploading until 2010; follo
 For `rock`, the whole market has dramatically shrinked; while `latin` and `metal` shrinked much slowly.
 
 
-   The two streamplots are as below:
    <p align="center">
    <img src="Figure/stream-pop.png" width="60%"/>
    </p>
