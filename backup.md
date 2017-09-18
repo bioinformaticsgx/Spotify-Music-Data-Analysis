@@ -162,12 +162,6 @@ Some genres have very small percentage that would become popular, like `classica
    
    <br />  
    <br />
-   <br />
-   <br />  
-   <br />
-   <br />
-   <br />  
-   <br />
    The popularity by genres is as below:
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
@@ -176,7 +170,15 @@ Some genres have very small percentage that would become popular, like `classica
 
 <br />
 <br />
-
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 **_2b.When were these popular tracks of different genres released?_**
 
 We generated year-by-year streamplot, which illustrates time-dependent trend. The upper panel is for only popular tracks; while lower for total tracks.
@@ -194,11 +196,7 @@ For `rock`, the whole market has dramatically shrinked; while `latin` and `metal
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
    <p align="center">
    <img src="Figure/stream-total.png" width="60%"/>
    </p>
