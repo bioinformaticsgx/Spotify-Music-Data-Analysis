@@ -107,6 +107,9 @@ def reduce_genres(gen):
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
 
 
 ## Exploratory Data Analysis and Data Visualization
