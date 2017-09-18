@@ -186,7 +186,6 @@ Some genres have very small percentage that would become popular, like `classica
 <br />
 <br />
 <br />
-<br />
 
 **_2b.When were these popular tracks of different genres released?_**
 
@@ -205,6 +204,8 @@ For `rock`, the whole market has dramatically shrinked.
    </p>
 
 
+<br />
+<br />
 <br />
 <br />
 <br />
