@@ -114,6 +114,7 @@ def reduce_genres(gen):
    
    <br />
    <br />
+   <br />
    
    <p align="center">
    <img src="Figure/modified-boxplot-matrix.png" width="90%"/>
@@ -138,6 +139,7 @@ These genres are produced in large quantity with certain proportion at top 20%.
 Some genres have very small percentage that would become popular, like `classical`, `soul`, `punk` and `jazz`.
    
    <br />  
+   <br />
    <br />
    <p align="center">
    <img src="Figure/modified-bar-plot.png" width="80%"/>
