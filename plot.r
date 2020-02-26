@@ -1,4 +1,4 @@
-## scatterplot matrix exampledddd
+## scatterplot matrix example
 p16 = ggplot(data=d,aes(x=album_popularity, y=track_popularity)) + geom_point(col=rgb(0,0,215,5,maxColorValue=255), pch=16) + geom_smooth(method=glm,se=TRUE,size=0.5,color="gold") + theme(panel.background = element_blank())
 
 
