@@ -20,7 +20,7 @@ import nltk
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 
-
+print('Omer')
 
 def bagwords (df):
        
