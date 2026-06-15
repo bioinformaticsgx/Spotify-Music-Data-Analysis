@@ -4,7 +4,8 @@ import time
 import json
 import sys
 import imp
-imp.reload(sys)
+imp.reload(sys) 
+print(hi)
 
 
 print('start..')
