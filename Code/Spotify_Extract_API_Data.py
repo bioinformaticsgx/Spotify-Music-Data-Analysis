@@ -9,6 +9,7 @@ imp.reload(sys)
 
 print('start..')
 
+print('hi tal')
 
 def main():
     
