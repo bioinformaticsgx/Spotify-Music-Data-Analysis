@@ -21,6 +21,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 
 
+print('Hi Tamar')
 
 def bagwords (df):
        
