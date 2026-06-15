@@ -5,7 +5,7 @@ import json
 import sys
 import imp
 imp.reload(sys)
-
+print ("hi")
 
 print('start..')
 
