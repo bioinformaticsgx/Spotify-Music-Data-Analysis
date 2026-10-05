@@ -21,6 +21,8 @@ def main():
     # Number of track query need to make
     num_tracks_per_query = 10000
 
+print("Hey there")
+
     for query in queries:
         
         ltrack = []
